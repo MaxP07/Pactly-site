@@ -315,6 +315,41 @@ figcaption{
   margin-top:24px;
 }
 
+.demo{
+  border-top:1px solid var(--line);
+  padding:76px 0;
+}
+
+.demo-head{
+  max-width:760px;
+  margin-bottom:32px;
+}
+
+.demo-head h2{
+  margin-bottom:16px;
+}
+
+.demo-head p:last-child{
+  margin-bottom:0;
+  color:#514b5b;
+  max-width:620px;
+}
+
+.demo-frame{
+  background:var(--lilac);
+  border-radius:8px;
+  padding:22px;
+}
+
+.demo-video{
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:6px;
+  background:var(--ink);
+  box-shadow:0 18px 32px #26232d12;
+}
+
 .price-deal{
   border-top:1px solid var(--line);
   padding:76px 0;
@@ -546,6 +581,14 @@ footer .links{
     padding:20px;
   }
 
+  .demo{
+    padding:48px 0;
+  }
+
+  .demo-frame{
+    padding:12px;
+  }
+
   .price-deal{
     padding:48px 0;
   }
@@ -739,6 +782,42 @@ Each with its own end date.
 <figcaption>Illustrative example</figcaption>
 
 </figure>
+
+</section>
+
+<section class="demo" aria-labelledby="demo-title">
+
+<div class="demo-head">
+
+<p class="eyebrow">See Paclara in action</p>
+
+<h2 id="demo-title">
+A clearer way to manage your creator work.
+</h2>
+
+<p>
+From brand deals and deadlines to restrictions, payments and pricing,
+<span class="brand-name">Paclara</span> keeps the commercial side of creating in one place.
+</p>
+
+</div>
+
+<div class="demo-frame">
+
+<video
+  class="demo-video"
+  autoplay
+  muted
+  loop
+  playsinline
+  preload="metadata"
+  aria-label="Paclara app demonstration"
+>
+  <source src="paclara-demo.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+</div>
 
 </section>
 
@@ -970,6 +1049,17 @@ when reviewing contractual obligations or pricing work.
 </p>
 
 </div>
+
+<script>
+if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const demoVideo = document.querySelector('.demo-video');
+  if (demoVideo) {
+    demoVideo.autoplay = false;
+    demoVideo.loop = false;
+    demoVideo.pause();
+  }
+}
+</script>
 
 </body>
 </html>
