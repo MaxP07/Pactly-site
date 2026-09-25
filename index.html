@@ -375,7 +375,6 @@ figcaption{
   box-shadow:0 18px 32px #26232d12;
 }
 
-/* Paclara needs a light colour when used inside the violet pricing card */
 .price-card .brand-name{
   color:var(--lilac);
 }
@@ -446,6 +445,73 @@ h3{
   font-size:16px;
   margin-bottom:0;
   color:#514b5b;
+}
+
+.faq{
+  border-top:1px solid var(--line);
+  padding:72px 0 76px;
+}
+
+.faq-heading{
+  max-width:760px;
+  margin-bottom:36px;
+}
+
+.faq-heading h2{
+  margin-bottom:16px;
+}
+
+.faq-heading p:last-child{
+  color:#514b5b;
+  max-width:650px;
+  margin-bottom:0;
+}
+
+.faq-list{
+  max-width:860px;
+}
+
+.faq-list details{
+  border-top:1px solid var(--line);
+  padding:20px 0;
+}
+
+.faq-list details:last-child{
+  border-bottom:1px solid var(--line);
+}
+
+.faq-list summary{
+  cursor:pointer;
+  font-size:19px;
+  font-weight:650;
+  line-height:1.4;
+  list-style:none;
+  padding-right:36px;
+  position:relative;
+}
+
+.faq-list summary::-webkit-details-marker{
+  display:none;
+}
+
+.faq-list summary::after{
+  content:"+";
+  position:absolute;
+  right:4px;
+  top:0;
+  color:var(--violet);
+  font-size:24px;
+  font-weight:400;
+}
+
+.faq-list details[open] summary::after{
+  content:"–";
+}
+
+.faq-list details p{
+  color:#514b5b;
+  max-width:760px;
+  margin:14px 0 0;
 }
 
 .closing{
@@ -619,6 +685,14 @@ footer .links{
     margin-bottom:30px;
   }
 
+  .faq{
+    padding:48px 0;
+  }
+
+  .faq-list summary{
+    font-size:18px;
+  }
+
   .closing{
     grid-template-columns:1fr;
     padding:28px;
@@ -689,8 +763,8 @@ then use your own deal history to help price what comes next.
 </p>
 
 <p class="privacy">
-  Your pricing suggestions come from your own completed collaborations, not a shared marketplace.
-  Your information stays on your device unless you choose to enable iCloud Sync or export it.
+Your pricing suggestions come from your own completed collaborations, not a shared marketplace.
+Your information stays on your device unless you choose to enable iCloud Sync or export it.
 </p>
 
 <span class="availability">Currently in beta</span>
@@ -973,6 +1047,116 @@ payment status and overdue work in one place.
 </section>
 
 <section
+  class="faq"
+  id="faq"
+  aria-labelledby="faq-title"
+>
+
+<div class="faq-heading">
+
+<p class="eyebrow">
+Questions creators ask
+</p>
+
+<h2 id="faq-title">
+What should I know about Paclara?
+</h2>
+
+<p>
+Paclara is built around the commercial side of being a creator:
+managing brand deals, keeping track of commitments and working out what new opportunities may be worth.
+</p>
+
+</div>
+
+<div class="faq-list">
+
+<details>
+<summary>What is Paclara?</summary>
+<p>
+Paclara is an iPhone app for creators who manage their own brand collaborations.
+It brings deliverables, publication and delivery dates, contracts, exclusivity,
+boosting, payments and pricing support together in one place.
+</p>
+</details>
+
+<details>
+<summary>Who is Paclara designed for?</summary>
+<p>
+Paclara is designed primarily for independent and self-managed creators handling
+paid brand partnerships without relying on an agency to manage every part of the process.
+You can still record agencies and individual deal contacts where they are involved.
+</p>
+</details>
+
+<details>
+<summary>How does Paclara help creators price brand deals?</summary>
+<p>
+Once you have recorded at least two completed collaborations, Price a Deal uses
+your own collaboration history as the starting point and applies Paclara's pricing model
+to the new opportunity. It then suggests both a price and a realistic pricing range.
+</p>
+</details>
+
+<details>
+<summary>Is Paclara an influencer rate calculator?</summary>
+<p>
+Paclara includes pricing support, but it is different from a generic influencer rate calculator.
+Rather than relying on a broad market average, Paclara starts with your own completed work
+and applies a consistent pricing model to help you assess a new deal.
+</p>
+</details>
+
+<details>
+<summary>Does Paclara use other creators' rates?</summary>
+<p>
+No. Paclara does not use a shared marketplace or pool other creators' rates to generate
+your pricing suggestions. Your own completed collaboration history provides the personal
+data foundation for Price a Deal.
+</p>
+</details>
+
+<details>
+<summary>Can Paclara help me check exclusivity and brand conflicts?</summary>
+<p>
+Yes. Paclara can compare a new opportunity with the categories, competitor brands
+and restriction dates you have explicitly entered for your existing collaborations.
+It can help surface potential overlaps before you agree to new work, but it does not
+replace reviewing your contracts or taking legal advice.
+</p>
+</details>
+
+<details>
+<summary>Can I track recurring collaborations and UGC in Paclara?</summary>
+<p>
+Yes. Paclara supports standard, fixed-term and ongoing collaborations, including
+recurring deliverable obligations. It can also distinguish between creator-posted content,
+content with brand usage rights and brand-only UGC.
+</p>
+</details>
+
+<details>
+<summary>Where is my Paclara data stored?</summary>
+<p>
+Paclara is local-first. Your collaboration information is stored on your device unless
+you choose to enable iCloud Sync or export it. Paclara does not require a Paclara account
+to use the iPhone app.
+</p>
+</details>
+
+<details>
+<summary>When will Paclara be available?</summary>
+<p>
+Paclara is currently in beta, with a public launch planned for October 2026.
+Creators who want to test the app before launch can request beta access now.
+</p>
+</details>
+
+</div>
+
+</section>
+
+<section
   class="closing"
   aria-labelledby="closing-title"
 >
@@ -1060,6 +1244,7 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   }
 }
 </script>
+
 <!-- Cloudflare Web Analytics -->
 <script
   type="module"
@@ -1067,5 +1252,6 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   data-cf-beacon='{"token":"4e7d5709edd04b2b92a6312d694f55fc"}'>
 </script>
 <!-- End Cloudflare Web Analytics -->
+
 </body>
 </html>
