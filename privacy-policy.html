@@ -62,7 +62,7 @@ footer a{color:var(--ink)}
 <div class="eyebrow">PACLARA / Legal information</div>
 <h1>Paclara Privacy Policy</h1>
 
-<p><strong>Last updated:</strong> 24 September 2026</p>
+<p><strong>Last updated:</strong> 30 September 2026</p>
 
 <p>This policy explains how Max Poplawski ("we", "us") handles information when you use the Paclara iOS app, participate in its TestFlight beta, use the Paclara website, or contact support.</p>
 
@@ -70,7 +70,7 @@ footer a{color:var(--ink)}
 
 <p>Paclara stores your information locally on your device. This may include collaboration details, publication and delivery dates, financial information, payment status, notes, links, briefs, contracts, attachments, agency and contact information, and other information you choose to enter.</p>
 
-<p>Paclara does not operate a Paclara account system or a developer-operated server that stores your collaboration data.</p>
+<p>Paclara does not operate a Paclara account system or a developer-operated server that stores your collaboration data. Paclara is local-first: your library is stored on your iPhone, with optional Apple-managed services such as iCloud Sync and StoreKit used only when you choose or need those features.</p>
 
 <p>You may optionally enable iCloud Sync. If you do, Paclara uses Apple’s CloudKit service and your private iCloud account to keep eligible Paclara data in sync between your Apple devices. This data is stored and transferred using Apple-managed iCloud infrastructure rather than a Paclara-operated server. iCloud Sync is optional and can be turned on or off in Paclara’s settings.</p>
 
@@ -82,7 +82,7 @@ footer a{color:var(--ink)}
 
 <p>Information stored in Paclara is used to provide features such as collaboration planning, conflict checking, reminders, pricing support, payment tracking, saved preferences, and, where enabled, synchronisation between your devices.</p>
 
-<p>Paclara does not use an AI service to analyse your content and does not use your content for advertising.</p>
+<p>Paclara does not use a developer-operated AI service to analyse your content and does not use your content for advertising. Where you choose to use Contract Review, eligible contract text is processed on your device using Apple's on-device Foundation Models as described below.</p>
 
 <h2>3. iCloud Sync</h2>
 
@@ -92,23 +92,39 @@ footer a{color:var(--ink)}
 
 <p>If you disable iCloud Sync, Paclara continues to use its local copy of your data on that device. Disabling sync does not itself delete your local Paclara library.</p>
 
-<h2>4. Recently Deleted</h2>
+<h2>4. Contract Review</h2>
+
+<p>If you choose to import an English contract using Paclara's Contract Review feature, Paclara can process text from a text-readable PDF or TXT file on your device using Apple's on-device Foundation Models. Paclara does not upload the contract, extracted text, or suggested terms to a developer-operated server, AI service, or translation service.</p>
+
+<p>Contract Review suggests details for you to check, such as fees, dates, deliverables, exclusivity or non-compete terms, and paid-media or boosting terms. Nothing from the review is saved into a collaboration until you choose to accept, edit, or otherwise confirm it. Contract Review is designed to help organise information and does not provide legal advice or determine whether a contractual term is enforceable.</p>
+
+<p>In V1, Contract Review supports English text-readable PDF and TXT files only. Scanned PDFs, Word files (DOC/DOCX), and non-English contracts are not supported for automatic review. Manual collaboration entry remains available.</p>
+
+<h2>5. Subscriptions and StoreKit</h2>
+
+<p>Paclara Pro is an optional auto-renewing subscription available on a monthly or yearly basis through the Apple App Store. Purchases, billing, renewals, refunds, and payment details are handled by Apple through StoreKit and your Apple Account. Paclara does not receive or store your payment card or other payment credentials.</p>
+
+<p>Paclara checks subscription entitlement information provided by Apple so that the app can determine whether Paclara Pro features should be available. This may include whether an eligible Paclara Pro subscription is currently active, expired, revoked, restored, or otherwise no longer entitled. Subscription management and cancellation are handled through Apple's subscription-management interface.</p>
+
+<p>Using the free version of Paclara does not require a subscription. iCloud Sync, backup and restore, attachments, reminders, widgets, and the core local library remain available independently of Paclara Pro unless the app clearly states otherwise.</p>
+
+<h2>6. Recently Deleted</h2>
 
 <p>When you delete a collaboration, Paclara may place it in Recently Deleted for up to 72 hours before it becomes eligible for permanent deletion. During this period, you can restore it.</p>
 
 <p>If iCloud Sync is enabled, the Recently Deleted state and later permanent deletion may also synchronise between your devices and through your private iCloud database. Copies may still remain temporarily in Apple-managed backups or other backup systems according to their own retention rules.</p>
 
-<h2>5. TestFlight beta testing</h2>
+<h2>7. TestFlight beta testing</h2>
 
 <p>If you install Paclara through TestFlight, Apple automatically collects crash logs and usage information and shares them with us. This can include device and operating-system information, app sessions, and crashes. Tester names and email addresses may also be available, depending on how you joined the beta. Feedback you submit, including comments and screenshots, is shared with us by Apple.</p>
 
 <p>We use this information to manage the beta, investigate problems, and improve Paclara. We do not share information received through TestFlight with third parties. Avoid including private contracts or other sensitive information in feedback or screenshots. Apple’s handling of this information is described in <a href="https://www.apple.com/legal/privacy/data/en/test-flight/">TestFlight &amp; Privacy</a>.</p>
 
-<h2>6. Support emails</h2>
+<h2>8. Support emails</h2>
 
 <p>If you email <a href="mailto:support@paclara.com">support@paclara.com</a>, we receive your email address, message, and any attachments you choose to send. We use these details to respond to your request and resolve problems. Messages sent to this address are forwarded to our support inbox.</p>
 
-<h2>7. Website analytics</h2>
+<h2>9. Website analytics</h2>
 
 <p>Paclara uses Cloudflare Web Analytics on the Paclara website to understand aggregate website usage, such as page views, visits, referring websites, countries, devices, browsers and operating systems.</p>
 
@@ -118,7 +134,7 @@ footer a{color:var(--ink)}
 
 <p>Cloudflare processes analytics data on our behalf in accordance with its own privacy and data-processing practices.</p>
 
-<h2>8. Sharing and retention</h2>
+<h2>10. Sharing and retention</h2>
 
 <p>We do not sell your personal information or use it for targeted advertising.</p>
 
@@ -126,9 +142,11 @@ footer a{color:var(--ink)}
 
 <p>If iCloud Sync is enabled, eligible Paclara data is also stored in your private iCloud database and changes may be synchronised across your participating devices. Deleted information may continue to exist temporarily in Apple-managed backups or other Apple systems according to Apple’s retention practices.</p>
 
+<p>Subscription purchases are processed by Apple. Paclara does not receive your payment details, although the app receives entitlement information from StoreKit so it can determine whether Paclara Pro is active. Contract Review processing is performed on-device using Apple's on-device Foundation Models and is not retained by Paclara on a developer-operated server.</p>
+
 <p>We retain support correspondence and separately retained beta feedback only for as long as needed to address requests, investigate issues, or meet applicable legal obligations. Information held within Apple’s TestFlight and iCloud services is also subject to Apple’s own retention rules.</p>
 
-<h2>9. Deletion and privacy requests</h2>
+<h2>11. Deletion and privacy requests</h2>
 
 <p>You can remove app data using Paclara’s available deletion controls or by deleting the app and its data from your device. Offloading the app may preserve its data. Exported Paclara backups and other device or cloud backups must be managed separately.</p>
 
@@ -136,11 +154,11 @@ footer a{color:var(--ink)}
 
 <p>To request access to, correction of, or deletion of personal information we hold through support or beta testing, email <a href="mailto:support@paclara.com">support@paclara.com</a>. We cannot directly access or delete collaboration data stored only on your device or in your private iCloud database.</p>
 
-<h2>10. Changes to this policy</h2>
+<h2>12. Changes to this policy</h2>
 
 <p>We may update this policy when Paclara or our data practices change. The revised policy will appear on this page with an updated date.</p>
 
-<h2>11. Contact</h2>
+<h2>13. Contact</h2>
 
 <p>
 Max Poplawski<br>
