@@ -515,6 +515,49 @@ h3{
   margin:14px 0 0;
 }
 
+.web-dashboard{
+  border-top:1px solid var(--line);
+  padding:72px 0 76px;
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  gap:64px;
+  align-items:center;
+}
+
+.web-dashboard h2{
+  margin-bottom:20px;
+}
+
+.web-dashboard p:not(.eyebrow){
+  color:#514b5b;
+  max-width:620px;
+  margin-bottom:0;
+}
+
+.web-dashboard-card{
+  background:var(--lilac);
+  border-radius:8px;
+  padding:30px;
+}
+
+.web-dashboard-card strong{
+  display:block;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:30px;
+  font-weight:400;
+  line-height:1.15;
+  margin-bottom:12px;
+}
+
+.web-dashboard-card p{
+  margin-bottom:20px;
+  color:#514b5b;
+}
+
+.web-dashboard-card .cta{
+  margin-top:0;
+}
+
 .newsletter{
   border-top:1px solid var(--line);
   padding:76px 0;
@@ -766,6 +809,7 @@ footer .links{
 @media(max-width:850px){
   .hero,
   .price-deal,
+  .web-dashboard,
   .newsletter-shell{
     gap:40px;
     padding:60px 0;
@@ -948,6 +992,7 @@ footer .links{
 <nav aria-label="Main navigation">
 <a href="#features">Explore</a>
 <a href="#price-a-deal">Price a Deal</a>
+<a href="#web-dashboard">Web dashboard</a>
 <a href="https://apps.apple.com/gb/app/paclara/id6813409941" target="_blank" rel="noopener">Download</a>
 <a href="#updates">Updates</a>
 <a href="support.html">Support</a>
@@ -1363,6 +1408,45 @@ Paclara is available now on the App Store for iPhone.
 <a href="https://apps.apple.com/gb/app/paclara/id6813409941" target="_blank" rel="noopener">Download Paclara on the App Store.</a>
 </p>
 </details>
+
+</div>
+
+</section>
+
+<section
+  class="web-dashboard"
+  id="web-dashboard"
+  aria-labelledby="web-dashboard-title"
+>
+
+<div>
+
+<p class="eyebrow">Coming soon</p>
+
+<h2 id="web-dashboard-title">
+Paclara on the web.
+</h2>
+
+<p>
+A browser dashboard for managing your creator work from a bigger screen is in development.
+The iPhone app remains the home of Paclara today, with the web dashboard coming next.
+</p>
+
+</div>
+
+<div class="web-dashboard-card">
+
+<strong>
+Web dashboard
+</strong>
+
+<p>
+Want to know when it is ready? Join Paclara updates and we’ll let you know.
+</p>
+
+<a class="cta" href="#updates">
+Get dashboard updates →
+</a>
 
 </div>
 
