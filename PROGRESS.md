@@ -1,5 +1,12 @@
 # Progress
 
+## 24 October 2026 — Payment tracker guide
+
+- Added /influencer-payment-tracker/ covering fees, invoice references, deadlines, payment status and a manual follow-up example.
+- Linked it from homepage resources, the brand deal guide and creator-guide navigation on every page; added it to sitemap.xml.
+- Reused existing guide styles, App Store links and analytics. No invoicing, payment processing or banking integration is implied.
+- Next action: request indexing for the new guide in Search Console and monitor non-brand impressions.
+
 ## 24 October 2026 — Terms of Use
 
 - Published the supplied complete 21-section Terms of Use with effective date 24 October 2026, preserving the wording.
