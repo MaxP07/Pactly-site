@@ -1,5 +1,11 @@
 # Progress
 
+## 24 October 2026 — Guide navigation
+
+- Added Resources to the homepage main menu, targeting the existing guide section.
+- Added a wrapping navigation row above every page footer with direct links to all three creator guides.
+- Preserved the existing content, MailerLite and analytics scripts.
+
 ## 24 October 2026 — SEO
 
 - Refined homepage title, description and Open Graph copy; added linked WebSite, Person and SoftwareApplication JSON-LD without invented ratings or reviews.
