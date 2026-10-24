@@ -1,5 +1,11 @@
 # Progress
 
+## 24 October 2026 — Terms of Use
+
+- Published the supplied complete 21-section Terms of Use with effective date 24 October 2026, preserving the wording.
+- Added canonical metadata, linked privacy/contact references, a footer link on every page, and a sitemap entry.
+- Reused the privacy page design and existing analytics; preserved existing MailerLite and app links.
+
 ## 24 October 2026 — Guide navigation
 
 - Added Resources to the homepage main menu, targeting the existing guide section.
