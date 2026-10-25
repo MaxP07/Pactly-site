@@ -1,5 +1,12 @@
 # Progress
 
+## 25 October 2026 — Instagram pricing article
+
+- Added /how-much-to-charge-for-an-instagram-post/ with a direct answer, brief and quote checklists, comparison workflow, first-deal guidance and a clearly labelled illustrative fee.
+- Kept the creator-pricing page as the product explanation; added links between the two, a homepage resource card, navigation links on every page and a sitemap entry.
+- Preserved existing styles, analytics, MailerLite and App Store links. No market-rate claims or ranking guarantees.
+- Next action: request indexing for the new article in Search Console and monitor non-brand query impressions.
+
 ## 24 October 2026 — Payment tracker guide
 
 - Added /influencer-payment-tracker/ covering fees, invoice references, deadlines, payment status and a manual follow-up example.
