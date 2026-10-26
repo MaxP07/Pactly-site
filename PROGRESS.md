@@ -1,5 +1,13 @@
 # Progress
 
+## 26 October 2026 — Starting out resource
+
+- Added /first-brand-collaboration/ with a beginner brief, payment and permissions checklist, a clarification message and practical next steps.
+- Added a Starting out callout in homepage Resources, a contextual brand-deal link, guide navigation links across the site and a sitemap entry.
+- Explained that core tracking can start with a first collaboration, while Price a Deal requires at least two completed collaborations. No legal conclusions, invented market rates or ranking guarantees.
+- Reused guide styling and preserved existing scripts, MailerLite, App Store links and crawler controls.
+- Next action: request indexing for the new guide and monitor its non-brand impressions.
+
 ## 26 October 2026 — AI search crawler controls
 
 - Explicitly allowed OAI-SearchBot while retaining general search crawling and the sitemap directive.
