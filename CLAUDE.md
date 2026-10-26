@@ -6,3 +6,4 @@ Pricing uses a deterministic model based on completed creator history and new-de
 Use unique titles, descriptions, canonical URLs, crawlable links and sitemap entries. Never invent ratings or reviews.
 Preserve truthful privacy disclosures including optional iCloud Sync, StoreKit, on-device Contract Review and conditional TestFlight information.
 Verify metadata, JSON-LD, internal links, sitemap and integration preservation before publishing.
+Allow public search discovery, including OAI-SearchBot; disallow GPTBot training crawls in robots.txt. These are separate controls. Preserve the sitemap directive.

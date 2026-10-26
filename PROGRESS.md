@@ -1,5 +1,12 @@
 # Progress
 
+## 26 October 2026 — AI search crawler controls
+
+- Explicitly allowed OAI-SearchBot while retaining general search crawling and the sitemap directive.
+- Disallowed GPTBot to opt out of OpenAI training crawls. This does not block all vendors’ training crawlers.
+- No page content, analytics, MailerLite, or hosting security settings changed.
+- Verify deployed robots.txt and representative public URLs; user-agent checks cannot prove access from verified crawler IP addresses or inspect Cloudflare account rules.
+
 ## 25 October 2026 — Instagram pricing article
 
 - Added /how-much-to-charge-for-an-instagram-post/ with a direct answer, brief and quote checklists, comparison workflow, first-deal guidance and a clearly labelled illustrative fee.
